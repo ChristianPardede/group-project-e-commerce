@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VINTAGEX</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./invoice.css">
     <script src="https://kit.fontawesome.com/ea56749d89.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 </head>
@@ -24,9 +24,87 @@
     </header>
     <main>
         <section>
-            <p>Kerjakan disini</p>
+          <div class="order_box">
+            <h2>Your Order</h2>
+            <ul class="list">
+              <li>
+                <a href="#">Product
+                  <span>Total</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Dipped tripod stool
+                  <span class="middle">x 02</span>
+                  <span class="last">$200.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Dipped tripod stool
+                  <span class="middle">x 02</span>
+                  <span class="last">$200.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Dipped tripod stool
+                  <span class="middle">x 02</span>
+                  <span class="last">$200.00</span>
+                </a>
+              </li>
+              <li>
+              <a href="#">Dipped tripod stool
+                <span class="middle">x 02</span>
+                <span class="last">$200.00</span>
+              </a>
+              </li>
+            </ul>
+            <ul class="list list_2">
+              <li>
+                <a href="#">Subtotal
+                  <span>$800.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Shipping
+                  <span>$50.00</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">Total
+                  <span>$850.00</span>
+                </a>
+              </li>
+            </ul>
+            <div class="payment_item">
+              <div class="radion_btn">
+                <input type="radio" id="f-option5" name="selector" />
+                <label for="f-option5">Check payments</label>
+                <div class="check"></div>
+              </div>
+              <p>
+                Please send a check to Store Name, Store Street, Store Town,
+                Store State / County, Store Postcode.
+              </p>
+            </div>
+            <div class="payment_item active">
+              <div class="radion_btn">
+                <input type="radio" id="f-option6" name="selector" />
+                <label for="f-option6">Paypal </label>
+                <img src="img/card.jpg" alt="" />
+                <div class="check"></div>
+              </div>
+              <p>
+                Please send a check to Store Name, Store Street, Store Town,
+                Store State / County, Store Postcode.
+              </p>
+            </div>
+              <input type="checkbox" id="f-option4" name="selector" />
+              <label for="f-option4">I’ve read and accept the </label>
+              <a href="#">terms & conditions*</a>
+            </div>
+            <a class="btn_3" href="#">Proceed to Paypal</a>
+          </div>
         </section>
-    </main>
+      </main>
     <footer>
         <div id="footer-content">
             <p>Made with <i class="fas fa-heart" style="color: red;"></i> by Team 1</p>

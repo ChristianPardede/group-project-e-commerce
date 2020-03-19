@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./pattern.png');
+    background-repeat: repeat;
+    font-family: Roboto;
+}
+
+nav {
+    width: 100%;
+    /* height: 70px; */
+    background-color: #00BFA6;
+    /* text-align: center; */
+    overflow: hidden;
+    position: fixed;
+}
+
+nav ul {
+    display: block;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px 35px;
+}
+
+nav ul li:hover {
+    background-color: #00A092;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+nav ul li.active {
+    background-color: #00A092;
+}
+
+nav ul li.active a {
+    color: black;
+}
+
+.nav-offset {
+    height: 49px;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #017D72;
+}
+
+footer #footer-content {
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+.order_box {
+    background: #ecfdff;
+    padding: 30px;
+}
+
+.order_box h2 {
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2a2a2a;
+    padding-bottom: 15px;
+}
+
+.order_box .list li a {
+    font-size: 14px;
+    color: #797979;
+    font-weight: normal;
+    border-bottom: 1px solid #eeeeee;
+    display: block;
+    line-height: 42px;
+}
+
+.order_box .list li a span {
+    float: right;
+  }
+
+.order_box .list li a .middle {
+    float: none;
+    width: 50px;
+    text-align: right;
+    display: inline-block;
+    margin-left: 30px;
+    color: #2a2a2a;
+  }
+  
+.order_box .list li:nth-child(4) a .middle {
+    margin-left: 48px;
+}
+
+.order_box .list_2 li a {
+    text-transform: uppercase;
+    color: #2a2a2a;
+    font-weight: 500;
+  }
+
+.order_box .list_2 li a span {
+    color: #797979;
+    text-transform: capitalize;
+  }
+
+.order_box .list_2 li:last-child a span {
+    color: #2a2a2a;
+  }
+
+.btn_3:hover {
+    background-color: rgb(116, 199, 192);
+    color: #fff;
+  }
+
+.order_box .btn_3 {
+    display: block;
+    line-height: 38px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.order_box .btn_3 {
+    padding: 9px 34px;
+}
+
+
+
+
+  
